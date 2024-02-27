@@ -1,0 +1,13 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: gray 1px solid;
+}
+.cell_clicked {
+  background: black;
+}
+.cell_button {
+  width: 100%;
+  height: 100%;
+}
