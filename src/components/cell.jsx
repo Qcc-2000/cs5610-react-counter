@@ -1,7 +1,7 @@
 import "./cell.css";
 import { useContext } from "react";
 import PropTypes from "prop-types"; // Import PropTypes
-import { ClickContext } from "./board";
+import { ClickContext } from "../clickContextProvider";
 export default function Cell({ id }) {
   const { clickStates, setClickStates } = useContext(ClickContext);
   const handleClick = () => {
