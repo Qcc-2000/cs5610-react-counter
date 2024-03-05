@@ -1,10 +1,10 @@
 import "./App.css";
 import ClickContextProvider from "./clickContextProvider";
-import Square from "./components/board";
+import Board from "./components/board";
 function App() {
   return (
     <ClickContextProvider>
-      <Square />
+      <Board />
     </ClickContextProvider>
   );
 }
